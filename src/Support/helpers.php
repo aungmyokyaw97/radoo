@@ -22,7 +22,7 @@ function laradooConfig()
         }
     }
 
-    $configuration = include(__DIR__ . '/../Config/config.php');
+    $configuration = include(__DIR__ . '/../Config/laradoo.php');
 
     return $configuration;
 }
