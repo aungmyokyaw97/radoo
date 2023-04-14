@@ -15,7 +15,7 @@ class RadooServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../config/tmh.php' => config_path('laradoo.php')
+            __DIR__.'/../config/laradoo.php' => config_path('laradoo.php')
         ], 'radoo-config');
     }
 
