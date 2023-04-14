@@ -6,7 +6,7 @@
  * Date: 10/5/17
  * Time: 16:04
  */
-namespace Edujugon\Laradoo\Exceptions;
+namespace Amk\Radoo\Exceptions;
 
 use Exception;
 

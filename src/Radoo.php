@@ -1,20 +1,12 @@
 <?php
-/**
- * Project: Laradoo.
- * User: Edujugon
- * Email: edujugon@gmail.com
- * Date: 10/5/17
- * Time: 16:04
- */
+namespace Amk\Radoo;
 
-namespace Edujugon\Laradoo;
-
-use Edujugon\Laradoo\Exceptions\OdooException;
+use Amk\Radoo\Exceptions\OdooException;
 use Illuminate\Support\Collection;
 use ripcord;
 
 
-class Odoo
+class Radoo
 {
 
     /**
