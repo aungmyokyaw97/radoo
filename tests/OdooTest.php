@@ -1,6 +1,6 @@
 <?php
 
-use Edujugon\Laradoo\Odoo;
+use Amk\Radoo\Radoo;
 use Illuminate\Support\Collection;
 use PHPUnit\Framework\TestCase;
 
@@ -21,7 +21,7 @@ class OdooTest extends TestCase
     {
         parent::__construct();
 
-        $this->odoo = new Odoo();
+        $this->odoo = new Radoo();
 
         $this->setDemoCredentials();
         $this->createOdooInstance();
