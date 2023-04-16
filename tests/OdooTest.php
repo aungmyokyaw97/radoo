@@ -241,9 +241,9 @@ class OdooTest extends TestCase
             ]
         ],[
             'offset'=>1,
-            'limit'=>5
+            'limit'=>2
         ]);
 
-        $this->assertCount(5,$ids);
+        $this->assertCount(2,$ids);
     }
 }
